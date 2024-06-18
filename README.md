@@ -8,8 +8,16 @@
 
 
 ## News
-* Paper accepted at The 3rd Explainable AI for Computer Vision ([XAI4CV](https://xai4cv.github.io/workshop_cvpr24)) Workshop at CVPR 2024.
-* Source code and details will be released in the next weeks.
+* 18 June 2024: Partial code release (trained model and documentation still to be released)
+* 8 April 2024: Paper accepted at The 3rd Explainable AI for Computer Vision ([XAI4CV](https://xai4cv.github.io/workshop_cvpr24)) Workshop at CVPR 2024.
+* 8 April 2024: Source code and details will be released in the next weeks.
+
+
+## Contributing <a name="contributing"></a>
+
+If you find an error, if you want to suggest a new feature or a change, you can use the issues tab to raise an issue with the appropriate label. 
+
+Complete and full updates can be found in [CHANGELOG.md](CHANGELOG.md). The file follows the guidelines of [https://keepachangelog.com/en/1.1.0/](https://keepachangelog.com/en/1.1.0/).
 
 
 ## Credits

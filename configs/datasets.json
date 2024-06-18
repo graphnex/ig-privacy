@@ -1,0 +1,13 @@
+{
+    "paths" : {
+        "root_dir" : ".",
+        "data_prefix" : ""
+    },
+
+    "datasets": {
+        "PrivacyAlert" : {
+            "name" : "PrivacyAlert",
+            "data_dir" : "privacy/privacyalert"
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "model_name" : "ga_mlp",
+    "net_name" : "GraphAgnosticMLP",
+    "num_workers" : 6,
+    "b_filter_imgs" : false,
+
+    "params": {
+        "seed": 789,
+        "max_num_epochs": 1000,
+        "batch_size_train": 100,
+        "batch_size_val": 100,
+        "batch_size" : 100,
+        "optimizer" : "Adam",
+        "init_lr": 0.001,
+        "lr_reduce_factor": 0.5,
+        "lr_schedule_patience": 10,
+        "min_lr": 1e-5,
+        "max_lr": 0.1,
+        "weight_decay": 0.0,
+        "momentum" : 0.9,
+        "max_time": 12,
+        "training_mode" : "original",
+        "fold_id" : 0,
+        "measure" : "balanced_accuracy",
+        "use_bce" : false,
+        "resume" : false
+    },
+    
+    "net_params": {
+        "num_out_classes" : 2,
+        "node_feat_size" : 1,
+        "hidden_dim": 16,
+        "num_obj_cat" : 80,
+        "num_scene_cat" : 0,
+        "n_graph_nodes" : 82,
+        "max_num_roi" : 50.0,
+        "num_layers" : 3,
+        "in_feat_dropout" : 0.0, 
+        "dropout" : 0.0,
+        "use_bn" : true,
+        "use_embedding" : true,
+        "embedding_size" : 16,
+        "graph_mode" : "co_occ_then_bip",
+        "graph_type" : "obj-only",
+        "use_class_nodes": true,
+        "gated" : false,
+        "readout" : "sum",
+        "use_card" : true,
+        "use_conf" : false
+    }
+}
